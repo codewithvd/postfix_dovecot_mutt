@@ -1,0 +1,21 @@
+set imap_user = ""
+set imap_pass = ""
+
+set folder = imaps://mail
+set spoolfile = +INBOX
+
+set realname = ''
+set from = "$imap_user"
+set use_from = yes
+
+set sort=reverse-date
+
+mailboxes = INBOX
+
+
+set timeout=1
+
+set sidebar_visible = yes
+
+
+source ~/.mutt/mutt_colors
